@@ -6,3 +6,4 @@
 5-print\_numbers.c: prints all single digit number of base 10 from 0
 7-print\_tebahpla.c: prints lowercase alphabet in reverse
 8-print\_base16.c: prints all numbers of base 16 in lowercase
+9-print\_comb.c: prints series on numbers with commas and space
