@@ -4,3 +4,4 @@
 3-print\_alphabets.c: Prints alphabet in lowercase then uppsercase
 4-ptint\_alphabet.c: prints the alphabet in lowercase, except e, q
 5-print\_numbers.c: prints all single digit number of base 10 from 0
+7-print\_tebahpla.c: prints lowercase alphabet in reverse
