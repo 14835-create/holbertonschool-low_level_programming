@@ -16,7 +16,6 @@ void print_table(int size)
 		for (col = 1; col <= size; col++)
 		{
 			printf("%d ", row * col);
-			col++;
 		}
 		printf("\n");
 	}
@@ -25,5 +24,5 @@ void print_table(int size)
 int main(void)
 {
 	print_table(4);
-	return 0;
+	return (0);
 }
