@@ -8,3 +8,4 @@
 7-print_last_digit.c: prints last digit of number n
 8-24_hours.c: prints every minute of day Jack bauer from 00:00 to 23:59
 9-times_table.c: prints 9 times table starting at 0
+10-add.c: adds two integers and returns result
