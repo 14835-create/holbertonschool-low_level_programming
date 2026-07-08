@@ -7,3 +7,4 @@
 6-print\_line.c: draws straight line in terminal
 7-print\_diagonal.c: draws diagnoal line in terminal
 8-print\_square.c: prints a square, new line
+9-fizz\_buzz.c: prints number 1 - 100, new line, multiples print fizz
