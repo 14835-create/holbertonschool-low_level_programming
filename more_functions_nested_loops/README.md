@@ -6,3 +6,4 @@
 5-more\_numbers.c: prints 10 times the numbers from 0 - 14, new line
 6-print\_line.c: draws straight line in terminal
 7-print\_diagonal.c: draws diagnoal line in terminal
+8-print\_square.c: prints a square, new line
