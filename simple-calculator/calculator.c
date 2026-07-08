@@ -8,6 +8,7 @@
 int main(void)
 {
 	int choice;
+	int a, b, result;
 
 	while (1)
 	{
@@ -30,6 +31,15 @@ int main(void)
 	else if (choice < 0 || choice > 4)
 	{
 		printf("Invalid choice\n");
+	}
+	else if (choice == 1)
+	{
+		printf("A: ");
+		scanf("%d", &a);
+		printf("B: ");
+		scanf("%d", &b);
+		result = a + b;
+		printf("Result: %d\n", result);
 	}
 	else
 	{
