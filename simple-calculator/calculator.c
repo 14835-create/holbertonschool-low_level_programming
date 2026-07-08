@@ -50,7 +50,7 @@ int main(void)
 		result = a - b;
 		printf("Result: %d\n", result);
 	}
-	else if (choice ==3)
+	else if (choice == 3)
 	{
 		printf("A: ");
 		scanf("%d", &a);
@@ -59,9 +59,22 @@ int main(void)
 		result = a * b;
 		printf("Result: %d\n", result);
 	}
+	else if (choice == 4)
+	{
+
+		printf("A: ");
+                scanf("%d", &a);
+                printf("B: ");
+                scanf("%d", &b);
+
+                if (b == 0)
+		{
+			printf("Error: division by zero\n");
+		}
 	else
 	{
-		printf("Feature not implemented yet\n");
+		printf("Result: %.1f\n", (float)a / b);
+	}
 	}
 	}
 
