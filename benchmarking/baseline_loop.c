@@ -16,7 +16,7 @@ int main(void)
 	start = clock();
 
 	for (i = 0; i < ITERATION_COUNT; i++)
-		result =+ (unsigned long long)(i % 3);
+		result += (unsigned long long)(i % 3);
 
 	end = clock();
 
