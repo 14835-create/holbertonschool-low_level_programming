@@ -2,4 +2,5 @@
 1-swap.c: swaps values of a b
 2-strlen.c: returns length of string
 3-puts.c: prints a string, new line
-4-print\_rev.c: prints a string, in reverse, new line 
+4-print\_rev.c: prints a string, in reverse, new line
+5-rev\_string.c: reverses string My School 
