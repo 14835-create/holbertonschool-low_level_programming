@@ -9,3 +9,4 @@
 8-print\_array.c: prints elements of n, new line
 9-strcpy.c: copies string, including terminating null byte
 0-strcat.c: concantenates two strings
+1-strncat.c: concantenates two stringsn bytes src
