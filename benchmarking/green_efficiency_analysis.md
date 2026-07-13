@@ -11,8 +11,12 @@ Observed Performance Differences :
 The most dignificant performance difference appears in comparison\_algorithms.c. The native algorithms time is around 2.655092 seconds, while the single-pass algorithm averages around 0.000103 seconds. This means the naive version is more thsn 25,000 times slower than the single-pass version. Both algorithms operate on the same data and produce consistent results. The difference is entirely to the algorithmic complexity. 
 
 For badline\_loop.c, the three times runs showed only small timing differences. This confirmed that when the workload is fixed and simple, runtime variability is very minimal.
-In instrumentation\_lab.c, the processing phase takes the most time, while the dataset building and checksum reduction takes less time. This shows where mosy of the computation happens and identifies which part of the program is most expensive.
+In instrumentation\_lab.c, the processing phase takes the most time, while the dataset building and checksum reduction takes less time. This shows where most of the computation happens and identifies which part of the program is most expensive. 
 
+For results instrumentation\_lab TOTAL seconds: 0.000731
+BUILD\_DATA seconds: 0.000287
+PROCESS seconds: 0.000308
+REDUCE seconds: 0.000131
 Relation Between Runtime and Energy Consumption :
 
 Runtime is a reasonable indicator of energy usage when hardware and conditions remain the same. Longer runtime in general means more CPU cycles, which in turn means more energy consumed. In comparison\_algorithms.c, the naive algorithms long runtime compare to the single-pass algrithm suggests much higher energy usage. 
