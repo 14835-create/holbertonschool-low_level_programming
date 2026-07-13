@@ -5,3 +5,4 @@
 4-print\_rev.c: prints a string, in reverse, new line
 5-rev\_string.c: reverses string My School
 6-puts2.c: prints every other number 0-9, new line 
+7-puts\_half.c: prints half 0123456789
