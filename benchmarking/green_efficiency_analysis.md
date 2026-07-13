@@ -17,6 +17,7 @@ For results instrumentation\_lab TOTAL seconds: 0.000731
 BUILD\_DATA seconds: 0.000287
 PROCESS seconds: 0.000308
 REDUCE seconds: 0.000131
+
 Relation Between Runtime and Energy Consumption :
 
 Runtime is a reasonable indicator of energy usage when hardware and conditions remain the same. Longer runtime in general means more CPU cycles, which in turn means more energy consumed. In comparison\_algorithms.c, the naive algorithms long runtime compare to the single-pass algrithm suggests much higher energy usage. 
