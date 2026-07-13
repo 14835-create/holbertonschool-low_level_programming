@@ -6,3 +6,4 @@
 5-rev\_string.c: reverses string My School
 6-puts2.c: prints every other number 0-9, new line 
 7-puts\_half.c: prints half 0123456789
+8-print\_array.c: prints elements of n, new line
