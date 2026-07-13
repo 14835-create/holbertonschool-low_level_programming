@@ -8,3 +8,4 @@
 7-puts\_half.c: prints half 0123456789
 8-print\_array.c: prints elements of n, new line
 9-strcpy.c: copies string, including terminating null byte
+0-strcat.c: concantenates two strings
