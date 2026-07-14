@@ -2,7 +2,7 @@
 
 /**
  * cap_string - uppercase all words of string
- * @s: string input
+ * @str: string input
  *
  * Return: pointer to string
  */
