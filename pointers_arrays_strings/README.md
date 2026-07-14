@@ -10,3 +10,4 @@
 9-strcpy.c: copies string, including terminating null byte
 0-strcat.c: concantenates two strings
 1-strncat.c: concantenates two stringsn bytes src
+2-strncpy.c: function that copies a string
