@@ -11,3 +11,4 @@
 0-strcat.c: concantenates two strings
 1-strncat.c: concantenates two stringsn bytes src
 2-strncpy.c: function that copies a string
+4-rev\_array.c: reverses the content of an array of intergers
