@@ -12,3 +12,6 @@
 1-strncat.c: concantenates two stringsn bytes src
 2-strncpy.c: function that copies a string
 4-rev\_array.c: reverses the content of an array of intergers
+5-string\_toupper.c: funtion that changes all lowercase letters of Look up into uppercase
+6-cap\_string.c: capitalizes all words of a string
+7-leet.c: encodes string into 1337
