@@ -20,4 +20,5 @@
 2-strchr.c: locates character in string, if s[i] = c return to add, if you reach end of '\0' without finding, return to NULL,
 3-strspn.c: gets the length of a prefix substring. reads each character of s (i = 0 'h', i = 1 'e' etc), stops when hits null terminator '\0' - "hello, world" stops at ','. Loop scans every character in accept - oleh.
 4-strpbrk.c: searches string of any set of bytes. each character checked in accept - world, when match found return pointer to the position, pointer to first l - hello, world, displays llo, world
-5-strstr.c: locates substring. Walk through haystack one char at a time - hello, world. each char walked through compares to needle - world. World is printed. 
+5-strstr.c: locates substring. Walk through haystack one char at a time - hello, world. each char walked through compares to needle - world. World is printed.
+7-print\_chessboard.c: print chessboard. board[8][8] - 2D array, 8 characters, 8 rows. two loops, i - rows, j - columns. After it prints 8 characters prints new line. Creates 8 x 8 chessboard with characters and blank spaces. 
