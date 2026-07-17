@@ -15,3 +15,4 @@
 5-string\_toupper.c: funtion that changes all lowercase letters of Look up into uppercase
 6-cap\_string.c: capitalizes all words of a string
 7-leet.c: encodes string into 1337
+0-memset.c: fills memory with constant byte
