@@ -21,4 +21,5 @@
 3-strspn.c: gets the length of a prefix substring. reads each character of s (i = 0 'h', i = 1 'e' etc), stops when hits null terminator '\0' - "hello, world" stops at ','. Loop scans every character in accept - oleh.
 4-strpbrk.c: searches string of any set of bytes. each character checked in accept - world, when match found return pointer to the position, pointer to first l - hello, world, displays llo, world
 5-strstr.c: locates substring. Walk through haystack one char at a time - hello, world. each char walked through compares to needle - world. World is printed.
-7-print\_chessboard.c: print chessboard. board[8][8] - 2D array, 8 characters, 8 rows. two loops, i - rows, j - columns. After it prints 8 characters prints new line. Creates 8 x 8 chessboard with characters and blank spaces. 
+7-print\_chessboard.c: print chessboard. board[8][8] - 2D array, 8 characters, 8 rows. two loops, i - rows, j - columns. After it prints 8 characters prints new line. Creates 8 x 8 chessboard with characters and blank spaces.
+8-print\_diagsums.c: prints diagonal sum of matrix of integers. sum1 - pricks elements, row, row. a+=size moves pointer down one full row. walks main diagonal. Same applies for sum2 except a-=size, moved pointer up one row. both are read and printed both sums of diagnoal numbers. 
