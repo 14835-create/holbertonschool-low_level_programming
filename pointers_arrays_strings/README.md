@@ -17,3 +17,4 @@
 7-leet.c: encodes string into 1337
 0-memset.c: fills memory with constant byte
 1-memcpy.c: copies memory area. Loop copy each byte from src to dest, runs exactly n iterations, returns to dest
+2-strchr.c: locates character in string, if s[i] = c return to add, if you reach end of '\0' without finding, return to NULL, 
