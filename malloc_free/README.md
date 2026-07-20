@@ -13,3 +13,8 @@ char = 1 byte times by
 s1 = 5 bytes + s2 = 6 bytes + NULL termiantor ('\0) 1
 total = 12 bytes for allocated memory.
 Program copies s1 into "string", copies s2 after s1. NULL terminates "string". The output becomes "Best School$" when used ./2-str\_concat | cat -e
+
+3-alloc\_grid.c: returns pointer to 2D array of integers.
+**grid - pointer to pointer, address of each row. h, w - height and width loop counters. if either width/height is 0/negative returns to NULL.
+grid = malloc(sizeof(int *) * height) - *allocated memory space for height pointer. Program allocates each row with:
+for (h = 0l h < height; h++) - each grid[h] points to row that can hold width integers. If any row fails to allocate (h--) this will free prviously allocated rows. free(grid) - frees the main pointer array. Returns NULL if fails to all prevent memory leaks.
