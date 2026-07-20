@@ -1,5 +1,15 @@
 0-create\_array.c:
 creates array of char, intializes it with specific char. size = 98 times to print the value of c = 'H' in the ASCII table. ASCII table value = 0x48 printed 98 times. Free space of memory for size and arr == NULL to prevent seg error. Compile files and run with ./a - prints 0x48 98 times.
+
 1-strdup.c:
 returns pointer to newly allocated space in memory which contains a copy of string given as parameter. String to be duplicated str = "Duplicated". Loop counts characters until hits null terminator. length of string is - 10 characters.
  dup = malloc(sizeof(char) * length + 1)) - size of char = 1 byte times by length = 10 characters + 1 (for the NULL terminator). This equals 11 bytes total for memory to duplicate. dup[i] = str[i]; - copies the string character one by one.
+
+2-str\_concat.c: concatenates two strings.
+The two strings are s1 = "Best", s2 = "School". These are the two strings to combine.If the caller passes NULL, it thinks it's an empty string instead to avoid crashes and errors. length1 + length2 are used to measure the length of both strings in program. "Best" = 5 characters, "School" = 6 characters. Allocated memory with malloc for both strings, including the NULL terminator.
+string = malloc(sizeof(char) * (length1 + length2 + 1) 
+length1 - bytes for s1, length2 - bytes for s2 , add 1 for NULL terminator ('\0').
+char = 1 byte times by 
+s1 = 5 bytes + s2 = 6 bytes + NULL termiantor ('\0) 1
+total = 12 bytes for allocated memory.
+Program copies s1 into "string", copies s2 after s1. NULL terminates "string". The output becomes "Best School$" when used ./2-str\_concat | cat -e
