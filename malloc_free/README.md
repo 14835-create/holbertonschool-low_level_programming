@@ -18,3 +18,9 @@ Program copies s1 into "string", copies s2 after s1. NULL terminates "string". T
 **grid - pointer to pointer, address of each row. h, w - height and width loop counters. if either width/height is 0/negative returns to NULL.
 grid = malloc(sizeof(int *) * height) - *allocated memory space for height pointer. Program allocates each row with:
 for (h = 0l h < height; h++) - each grid[h] points to row that can hold width integers. If any row fails to allocate (h--) this will free prviously allocated rows. free(grid) - frees the main pointer array. Returns NULL if fails to all prevent memory leaks.
+
+3-free_grid.c: fress 2D grid from previous program called 3-alloc_grid.c.
+each grid is seperate malloc block, each must be freed individually with
+ for (h = 0; h < height; h++)
+free(grid[h]);
+free(grid); - frees block that holds row pointers.
