@@ -12,3 +12,7 @@ If either s1, s2 NULL, trated as empty string. Added length to s1, counts charac
 2-calloc.c:
 allocates memory for an array, using malloc.
 if nmemb/size is 0 - returns NULL. Allocates memory with malloc(nmem * size). Loop through each byte and sets it to 0. Returns pointer to the 0 memory block.
+
+3-array\_range.c:
+creates array of integers.
+calling a = array\_range(0, 10). Function checks if min is greater than max if not continues. Calculates number of integers required, array will contain 11 integers. size = 10 - 0 + 1. Allocates memory requied and gives space for a[0] - a[10]. For loop fills array and becomes 0-10. Prints output in hexadeimal 0 = 0x00, 1 = 0x01 to 10 = 0x0a.
