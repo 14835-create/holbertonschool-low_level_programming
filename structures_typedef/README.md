@@ -15,12 +15,19 @@ The following files are included in this project:
 |----------|----------|
 | main.c    | Entry point for programs  |
 | dog.h    | Struct definition and prototypes  |
-| 1-init\_dog.c | Initializes a struct dog | 
+| 1-init\_dog.c | Initializes a struct dog |
+| 2-print\_dog.c | Prints a struct dog | 
 
 ## Tasks 🧩
 [dog.h](./dog.h): header file defines new type struct dog with the following elements:
 - char *name
 - float age
 - char *owner
+
 [1-init\_dog.c](./1-init_dog.c): Initializes new variable of type struct dog.
-- Prototype: void init\_dog(struct dog *d, char *name, float age, char *owner);
+- Prototype: void init\_dog(struct dog *d, char *name, float age, char *owner);*
+
+[2-print\_dog.c](./2-print_dog.c): Funtion that prints a struct dog.
+- Prototype: void print\_dog(struct dog *d);
+
+
