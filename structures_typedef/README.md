@@ -17,7 +17,8 @@ The following files are included in this project:
 | dog.h    | Struct definition and prototypes  |
 | 1-init\_dog.c | Initializes a struct dog |
 | 2-print\_dog.c | Prints a struct dog |
-| 4-new\_dog.c | Function creates a new dog | 
+| 4-new\_dog.c | Function creates a new dog |
+| 5-free\_dog.c | Function the frees dogs | 
 
 ## Tasks 🧩
 There is 6 tasks in total, all betty compliant:
@@ -45,4 +46,8 @@ There is 6 tasks in total, all betty compliant:
 - Prototype: dog\_t *new_dog(char *name, float age, char *owner);
 - Store copy of name and owner
 - Return NULL if function fails
-- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=ginu89 4-main.c 4-new_dog.c -o e*
+
+6. [5-free\_dog.c](./5-free_dog.c): Function that frees dogs.
+- Prototype: void free\_dog(dog\_t *d);
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-free_dog.c 4-new_dog.c -o f
