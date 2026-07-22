@@ -28,6 +28,6 @@ The following files are included in this project:
 - Prototype: void init\_dog(struct dog *d, char *name, float age, char *owner);*
 
 [2-print\_dog.c](./2-print_dog.c): Funtion that prints a struct dog.
-- Prototype: void print\_dog(struct dog *d);
+- Prototype: void print\_dog(struct dog *d);*
 
-
+[dog.h](./dog.h): Define new type dog\_t as a new name for the type struct dog.
