@@ -16,18 +16,33 @@ The following files are included in this project:
 | main.c    | Entry point for programs  |
 | dog.h    | Struct definition and prototypes  |
 | 1-init\_dog.c | Initializes a struct dog |
-| 2-print\_dog.c | Prints a struct dog | 
+| 2-print\_dog.c | Prints a struct dog |
+| 4-new\_dog.c | Function creates a new dog | 
 
 ## Tasks 🧩
-[dog.h](./dog.h): header file defines new type struct dog with the following elements:
+There is 6 tasks in total, all betty compliant:
+
+1. [dog.h](./dog.h): header file defines new type struct dog with the following elements:
 - char *name
 - float age
 - char *owner
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
 
-[1-init\_dog.c](./1-init_dog.c): Initializes new variable of type struct dog.
+2. [1-init\_dog.c](./1-init_dog.c): Initializes new variable of type struct dog.
 - Prototype: void init\_dog(struct dog *d, char *name, float age, char *owner);*
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-init\_dog.c -o b
 
-[2-print\_dog.c](./2-print_dog.c): Funtion that prints a struct dog.
+3. [2-print\_dog.c](./2-print_dog.c): Funtion that prints a struct dog.
 - Prototype: void print\_dog(struct dog *d);*
+- If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name: (nil))
+- If d is NULL print nothing.
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print\_dog.c -o c
 
-[dog.h](./dog.h): Define new type dog\_t as a new name for the type struct dog.
+4. [dog.h](./dog.h): Define new type dog\_t as a new name for the type struct dog.
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+
+5. [4-new\_dog.c](./4-new_dog.c): Function that creates a new dog.
+- Prototype: dog\_t *new_dog(char *name, float age, char *owner);
+- Store copy of name and owner
+- Return NULL if function fails
+- Compiled with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
