@@ -17,7 +17,7 @@ The following files are included in this project:
 | function\_pointers.c | Entry point for programs |
 | 0-print\_name.c | Function that prints a name |
 | 1-array\_iterator.c | Executes a function given as parameter |
-|          | |
+| 2-int\_index.c | Function that searches for an integer |
 |          | |
 
 ## Tasks ~_
@@ -41,3 +41,10 @@ results printed:
 0x400
 0x1000
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-array\_iterator.c -o b
+
+3. [2-int\_index.c](./2-int_index.c): function that searches for an integer.
+results:
+2
+1
+2
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int\_index.c -o 
