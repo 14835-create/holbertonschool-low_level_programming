@@ -18,7 +18,7 @@ The following files are included in this project:
 | 0-print\_name.c | Function that prints a name |
 | 1-array\_iterator.c | Executes a function given as parameter |
 | 2-int\_index.c | Function that searches for an integer |
-|          | |
+| 3-main.c, 3-op\_functions.c, 3-calc.h, 3-get\_op\_func.c | Program that performs simple operations |
 
 ## Tasks ~_
 There is 4 tasks in total, all betty compliant:
@@ -48,3 +48,39 @@ results:
 1
 2
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int\_index.c -o 
+
+4. [3-main.c](./3-main.c): Calculator program - runs calculator program
+- reads command line arguments
+- converts numbers (atoi)
+- validates operator
+- checks div/mod by 0
+- calls correct function using pointer returned (get\_op\_func)
+- prints
+
+[3-op\_functions.c](./3-op_functions.c): Math functions - implements math operations
+- op\add : addition
+- op\_sub : subtraction
+- op\_mul : multiplication
+- op\_div : division
+- op\_mod : modulo
+
+[3-get\_op\_func.c](./3-get_op_func.c): Operator selector - chooses correct math function
+- look at operator string
+- search through ops[]
+- return correct function pointer (eg. op\_add)
+
+[3-calc.h](./3-calc.h): Header file - defines function prote/structs
+- decalres what other files require
+- op\_t struct
+- proto for all arithmetic functions
+- proto for get\_op\_func
+
+compiled files with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op\_functions.c 3-get\_op\_func.c -o calc
+Results:
+
+| ./calc 1 + 1 | 2 |
+| ./calc 97 + 1 | 98 |
+| ./calc 1024 / 10 | 102 |
+| ./calc 1024 '*' 98 | 100352 |
+| ./calc 1024 - 98 | Error |
+| ./calc 1024 '%' 98 | 44 |
