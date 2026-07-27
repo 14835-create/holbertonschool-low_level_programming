@@ -1,15 +1,15 @@
 # C - Function pointers
 In this project from Holberton School, I learnt about using function pointers in C programming.
 
-## Learning Objectives ~_|
+## Learning Objectives 🧠
 - What are function pointers and how to use them
 - What does a function pointer exactly hold
 - Where does a function pointer print to in the virtual memory
  
-## Header file ~_~S~A
+## Header file 📁
 [function\_pointers.c](./function_pointers.h): Header file containing all definitions and prototypes for all projects and functions written in function pointers.
 
-## Project File Table ~_~S~A
+## Project File Table 📁
 The following files are included in this project:
 
 | File     | Description |
@@ -20,7 +20,7 @@ The following files are included in this project:
 | 2-int\_index.c | Function that searches for an integer |
 | 3-main.c, 3-op\_functions.c, 3-calc.h, 3-get\_op\_func.c | Program that performs simple operations |
 
-## Tasks ~_
+## Tasks 🧩
 There is 4 tasks in total, all betty compliant:
 
 1. [0-print\_name.c](./0-print_name.c): Function that prints name Bob.
@@ -78,6 +78,8 @@ compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int\_in
 compiled files with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op\_functions.c 3-get\_op\_func.c -o calc
 Results:
 
+| Test | Result |
+|------|--------|
 | ./calc 1 + 1 | 2 |
 | ./calc 97 + 1 | 98 |
 | ./calc 1024 / 10 | 102 |
