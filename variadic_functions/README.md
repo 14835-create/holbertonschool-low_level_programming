@@ -17,7 +17,7 @@ The following files are included in this project:
 | variadic\_functions.h | Entry point for programs |
 | 0-sum\_them\_all.c | Function that returns the sum of all its parameters |
 | 1-print\_numbers.c | Function that prints numbers, new line |
-|          | |
+| 2-print\_strings.c | Function that prints strings, new line |
 |          | |
 
 ## Tasks 🧩
@@ -33,3 +33,8 @@ results: ./a
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-print\_numbers.c -o b
 results:
 0, 98, -1024, 402
+
+3. [2-print\_strings.c](./2-print_strings.c): function that prints strings, followed by a new line.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print\_strings.c -o c
+results: 
+Jay, Django
