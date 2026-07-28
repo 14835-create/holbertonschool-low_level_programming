@@ -16,7 +16,7 @@ The following files are included in this project:
 |----------|-------------|
 | variadic\_functions.h | Entry point for programs |
 | 0-sum\_them\_all.c | Function that returns the sum of all its parameters |
-|          | |
+| 1-print\_numbers.c | Function that prints numbers, new line |
 |          | |
 |          | |
 
@@ -24,7 +24,12 @@ The following files are included in this project:
 There is 4 tasks in total, all betty compliant:
 
 1. [0-sum\_them\_all.c](./0-sum_them_all.c): function that returns the sum of all its parameters.
-compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-sum_them_all.c -o a
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-sum\_them\_all.c -o a
 results: ./a
 1122
 500
+
+2. [1-print\_numbers.c](./1-print_numbers.c): function that prints numbers, followed by new line.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-print\_numbers.c -o b
+results:
+0, 98, -1024, 402
