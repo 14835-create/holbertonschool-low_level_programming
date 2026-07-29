@@ -18,7 +18,7 @@ The following files are included in this project:
 | 0-whatsmyname.c | Write a program that prints its name, followed by new line |
 | 1-args.c | Write a program that prints numbers of arguments passed to it |
 | 2-args.c | Write a program that prints all arguments it receives |
-|          | |
+| 3-mul.c  | Write a program that multiplies two numbers |
 |          | |
 
 ## Tasks ~_
@@ -33,4 +33,5 @@ compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-args.c -o nargs
 3. [2-args.c](./2-args.c): Write a program that prints all arguments it receives. Arguments printed one per line, ends with new line.
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-args.c -o args
 
-4. [
+4. [3-mul.c](./3-mul.c): Write a program that multiplies two numbers. Program prints result of multiplication of two numbers, new line. If program does not recieve two arguments, return 1 Error.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
