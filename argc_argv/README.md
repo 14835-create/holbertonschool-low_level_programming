@@ -17,7 +17,7 @@ The following files are included in this project:
 |----------|-------------|
 | 0-whatsmyname.c | Write a program that prints its name, followed by new line |
 | 1-args.c | Write a program that prints numbers of arguments passed to it |
-|          | |
+| 2-args.c | Write a program that prints all arguments it receives |
 |          | |
 |          | |
 
@@ -30,4 +30,7 @@ compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-whatsmyname.c -o
 2. [1-args.c](./1-args.c): Write a program that prints the number of arguments passed into it. Prints number, followed by new line. (void)argv; used to prevent unused variable warnings - keeping prototypes intact.
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-args.c -o nargs
 
+3. [2-args.c](./2-args.c): Write a program that prints all arguments it receives. Arguments printed one per line, ends with new line.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-args.c -o args
 
+4. [
