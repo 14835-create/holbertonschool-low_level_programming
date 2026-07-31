@@ -18,7 +18,7 @@ The following files are included in this project:
 | 0-puts\_recursion.c | Write a function that prints a string, followed by new line |
 | 1-print\_rev\recursion.c | Write a function that prints a string in reverse |
 | 2-strlen\_recursion.c | Write a dunction that returns the length of the string |
-|          | |
+| 3-factorial.c | Write a functions that returns the factorial of a given number |
 |          | |
 
 ## Tasks 🧩
@@ -36,4 +36,12 @@ result: reklaW notloC
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen\_recursion.c -o 2-strlen\_recursion
 result: 14
 
-4. []():
+4. [3-factorial.c](./3-factorial.c): Write a function that returns the factorial of a given number. Recursive calls and reduces n by 1 until reaches 0. Results multiply together as the call unwinds, giving factorial value.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-factorial.c -o 3-factorial
+results: 
+1
+120
+3628800
+-1
+
+5. []():
