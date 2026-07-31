@@ -16,7 +16,7 @@ The following files are included in this project:
 | File     | Description |
 |----------|-------------|
 | 0-puts\_recursion.c | Write a function that prints a string, followed by new line |
-|          |             |
+| 1-print\_rev\recursion.c | Write a function that prints a string in reverse |
 |          | |
 |          | |
 |          | |
@@ -25,7 +25,11 @@ The following files are included in this project:
 There is 7 tasks in total, all betty compliant:
 
 1. [0-puts\_recursion.c](./0-puts_recursion.c): Write a function that prints a string, followed by new line. Function prints all characters until string ends, new line.
-compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
-julien@ubuntu:~/Recursion$ ./0-puts_recursion 
+compiled with:  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 \_putchar.c 0-main.c 0-puts\_recursion.c -o 0-puts\_recursion
+result: Puts with recursion
 
-2. []():
+2. [1-print\_rev\_recursion.c](./1-print_rev_recursion.c): Write a dunction that prints a string in reverse. Prints string backwards using recursion. Characters print after recursive call returns, reverses the order.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 \_putchar.c 1-main.c 1-print\_rev\_recursion.c -o 1-print\_rev\_recursion
+result: reklaW notloC
+
+3. []():
