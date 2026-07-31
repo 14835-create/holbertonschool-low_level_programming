@@ -17,7 +17,7 @@ The following files are included in this project:
 |----------|-------------|
 | 0-puts\_recursion.c | Write a function that prints a string, followed by new line |
 | 1-print\_rev\recursion.c | Write a function that prints a string in reverse |
-|          | |
+| 2-strlen\_recursion.c | Write a dunction that returns the length of the string |
 |          | |
 |          | |
 
@@ -32,4 +32,8 @@ result: Puts with recursion
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 \_putchar.c 1-main.c 1-print\_rev\_recursion.c -o 1-print\_rev\_recursion
 result: reklaW notloC
 
-3. []():
+3. [2-strelen\_recursion.c](./2-strlen_recursion.c): Write a function that returns length of a string. Keeps moving forward til it hits '\0'. call returns 0. Prvious calls add 1 values on way back, totaly length of string built.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen\_recursion.c -o 2-strlen\_recursion
+result: 14
+
+4. []():
