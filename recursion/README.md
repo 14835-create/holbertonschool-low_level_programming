@@ -20,7 +20,7 @@ The following files are included in this project:
 | 2-strlen\_recursion.c | Write a dunction that returns the length of the string |
 | 3-factorial.c | Write a functions that returns the factorial of a given number |
 | 4-pow\_recursion.c | Write a function that returns value of x raised to power of y|| 5-sqrt\_recursion.c | Write a function that returns natural square or root number |
-
+| 6-is\_prime\_number.c | Write a function that returns 1 is input interger is prime number, otherwise return 0 |
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
 
@@ -63,3 +63,15 @@ result:
 -1
 5
 -1
+
+7. [6-is\_prime\_number.c](./6-is_prime_number.c): Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-is\_prime\_number.c -o 6-prime
+result:
+0
+0
+0
+1
+0
+0
+1
+1
