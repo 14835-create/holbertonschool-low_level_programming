@@ -1,0 +1,5 @@
+TAG_ACC: 0xf2ef340b
+
+KEY: 0x449bc842
+
+ACC_AFTER_10: 0xe628de91
