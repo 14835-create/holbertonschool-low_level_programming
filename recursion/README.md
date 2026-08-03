@@ -19,7 +19,7 @@ The following files are included in this project:
 | 1-print\_rev\recursion.c | Write a function that prints a string in reverse |
 | 2-strlen\_recursion.c | Write a dunction that returns the length of the string |
 | 3-factorial.c | Write a functions that returns the factorial of a given number |
-|          | |
+| 4-pow\_recursion.c | Write a function that returns value of x raised to power of y|| 
 
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
@@ -44,4 +44,12 @@ results:
 3628800
 -1
 
-5. []():
+5. [4-pow\_recursion.c](./4-pow_recursion.c): Write a function that returns the value of x raised to the power of y. Sorting the base number (x) in variable called result. Result will hold the multiplication as recursion unwinds.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
+result:
+1
+1
+65536
+25
+-1
+-125
