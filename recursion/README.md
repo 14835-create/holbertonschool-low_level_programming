@@ -19,7 +19,7 @@ The following files are included in this project:
 | 1-print\_rev\recursion.c | Write a function that prints a string in reverse |
 | 2-strlen\_recursion.c | Write a dunction that returns the length of the string |
 | 3-factorial.c | Write a functions that returns the factorial of a given number |
-| 4-pow\_recursion.c | Write a function that returns value of x raised to power of y|| 
+| 4-pow\_recursion.c | Write a function that returns value of x raised to power of y|| 5-sqrt\_recursion.c | Write a function that returns natural square or root number |
 
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
@@ -45,7 +45,7 @@ results:
 -1
 
 5. [4-pow\_recursion.c](./4-pow_recursion.c): Write a function that returns the value of x raised to the power of y. Sorting the base number (x) in variable called result. Result will hold the multiplication as recursion unwinds.
-compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow\_recursion.c -o 4-pow
 result:
 1
 1
@@ -53,3 +53,13 @@ result:
 25
 -1
 -125
+
+6. [5-sqrt\_recursion.c](./5-sqrt_recursion.c): Write a functin that returns the natural square root of a number. 
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-sqrt\_recursion.c -o 5-sqrt
+result:
+1
+32
+4
+-1
+5
+-1
