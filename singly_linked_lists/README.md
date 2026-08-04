@@ -17,7 +17,7 @@ The following files are included in this project:
 | 1-list\_len..c | Write a dunction that returns the number of elements in linked list\_t list |
 | 2-add\_node.c | Write a function that adds a new node at the beginning of a list\_t list |
 | 3-add\_node\_end.c | Write a function that adds a new node at the end of list\_t list |
-|          | |
+| 4-free\_list.c | Write a function that frees a list\_t list |
 
 ## Tasks 🧩
 There is 5 tasks in total, all betty compliant:
@@ -102,6 +102,28 @@ result:
 [6] Victor
 [6] Walton
 
-5. []():
+5. [4-free\_list.c](./4-free_list.c): Function walks through linked list each node, freeing each element. Every node, it frees the duplicated string stores inside it. Frees next node structure and uses temporary pointer to remember next node structure before it frees the current one. This ensures list is fully walked through without losing access to remainder nodes. At loop end memory is released with no leaks.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-free\_list.c 3-add\_node\_end.c 0-print\_list.c -o e
+Valgrind result:
+y\_linked\_lists# valgrind ./e
+==1202== Memcheck, a memory error detector
+==1202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1202== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1202== Command: ./e
+==1202== 
+[3] Bob
+[1] &
+[4] Kris
+[4] love
+[3] asm
+==1202== 
+==1202== HEAP SUMMARY:
+==1202==     in use at exit: 0 bytes in 0 blocks
+==1202==   total heap usage: 11 allocs, 11 frees, 1,164 bytes allocated
+==1202== 
+==1202== All heap blocks were freed -- no leaks are possible
+==1202== 
+==1202== For lists of detected and suppressed errors, rerun with: -s
+==1202== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 
 
