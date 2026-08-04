@@ -15,7 +15,7 @@ The following files are included in this project:
 |----------|-------------|
 | 0-print\_list.c | Write a function that prints all the elements of lsit\_t list  |
 | 1-list\_len..c | Write a dunction that returns the number of elements in linked list\_t list |
-|          | |
+| 2-add\_node.c | Write a function that adds a new node at the beginning of a list\_t list |
 |          | |
 |          | |
 
@@ -38,5 +38,37 @@ compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list\_l
 results:
 -> 2 elements
 
-3. []():
+3. [2-add\_node.c](./2-add_node.c): Function creates a new node and duplicates the string int it. Procceds to set the length, links to the old head, updates the head pointer and returns new node.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-add\_node.c 0-print\_list.c -o c
+results:
+[3] Zee
+[7] William
+[7] Tasneem
+[6] Steven
+[9] Sravanthi
+[6] Siphan
+[4] Rona
+[4] Rick
+[4] Rick
+[7] Praylin
+[5] Mason
+[6] Marine
+[4] Kris
+[7] Josquin
+[4] John
+[4] John
+[3] Joe
+[6] Gloria
+[7] Electra
+[4] Dora
+[6] Daniel
+[6] Damian
+[8] Chandler
+[5] Bilal
+[7] Bennett
+[8] Augustin
+[5] Asaia
+[9] Alexandro
+
+4. []():
 
