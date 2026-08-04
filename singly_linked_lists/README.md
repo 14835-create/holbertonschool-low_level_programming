@@ -38,7 +38,7 @@ compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list\_l
 results:
 -> 2 elements
 
-3. [2-add\_node.c](./2-add_node.c): Function creates a new node and duplicates the string int it. Procceds to set the length, links to the old head, updates the head pointer and returns new node.
+3. [2-add\_node.c](./2-add_node.c): Function creates a new node and duplicates the string. Calculates the length manually, links node to front list, updates head pointer and returns the new node.
 compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-add\_node.c 0-print\_list.c -o c
 results:
 [3] Zee
