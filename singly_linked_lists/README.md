@@ -16,7 +16,7 @@ The following files are included in this project:
 | 0-print\_list.c | Write a function that prints all the elements of lsit\_t list  |
 | 1-list\_len..c | Write a dunction that returns the number of elements in linked list\_t list |
 | 2-add\_node.c | Write a function that adds a new node at the beginning of a list\_t list |
-|          | |
+| 3-add\_node\_end.c | Write a function that adds a new node at the end of list\_t list |
 |          | |
 
 ## Tasks 🧩
@@ -70,5 +70,38 @@ results:
 [5] Asaia
 [9] Alexandro
 
-4. []():
+4. [3-add\_node\_end,c](./3-add_node_end.c): Function creates new node, duplicates input string with strdup, manually counts string's length. Initalizes node with data, if list is empty, new node becomes head. Otherwise function walks through list til it reaches the final node and attaches new node at end. Checks memory allocation failures and returns NULL if error otherwise, returns address of new node added.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-add\_node\_end.c 0-print\_list.c -o d
+result:
+[4] Anne
+[6] Colton
+[6] Corbin
+[6] Daniel
+[6] Danton
+[5] David
+[4] Gary
+[6] Holden
+[3] Ian
+[3] Ian
+[3] Jay
+[6] Jennie
+[5] Jimmy
+[6] Justin
+[6] Kalson
+[4] Kina
+[7] Matthew
+[3] Max
+[7] Michael
+[4] Ntuj
+[6] Philip
+[7] Richard
+[8] Samantha
+[6] Stuart
+[5] Swati
+[7] Timothy
+[6] Victor
+[6] Walton
+
+5. []():
+
 
