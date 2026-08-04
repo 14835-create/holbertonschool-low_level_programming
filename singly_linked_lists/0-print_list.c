@@ -3,7 +3,7 @@
 
 /**
  * print_list - prints elemetns of list_t list
- * @n: pointer to lsit_t list
+ * @h: pointer to lsit_t list
  *
  * Return: num of nodes
  */
@@ -23,5 +23,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 	}
 
-	return count;
+	return (count);
 }
