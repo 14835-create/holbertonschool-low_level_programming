@@ -15,7 +15,7 @@ The following files are included in this project:
 | File     | Description |
 |----------|-------------|
 | 0-print\_dlistint.c | Write a function that prints all elements of a dlistint\_t lsit |
-|          |             |
+| 1-dlistint\_len.c | Write a function that returns the number of elements linked dlistint\_t list  |
 |          | |
 |          | |
 |          | |
@@ -25,7 +25,7 @@ There is 9 tasks in total, all betty compliant:
 
 1. [0-print\_dlistint.c](./0-print_dlistint.c):  
 
-2. []():
+2. [-dlistint\_len.c](./1-dlistint_len.c):
 
 3. []():
 
