@@ -22,7 +22,7 @@ The following files are included in this project:
 | 5-get\_dnodeint.c | Write a function that returns the nth node of a dlistint\_t linked list |
 | 6-sum\_dlistint.c | Write a function that returns the sum of all data (n) of a dlistint\_t linked list |
 | 7-insert\_dnodeint.c | Write a function that inserts a new node at a given position|
-| | |
+| 8-delete\_dnodeint.c | Write a function that deletes the node at index index of a dlistint\_t linked list |
 
 ## Tasks 🧩
 There is 9 tasks in total, all betty compliant:
@@ -117,4 +117,67 @@ results:
 402
 1024
 
-9. []():
+9. [8-delete\_dnodeint.c](./8-delete_dnodeint.c): Function removes node at specific index in list. Index = 0 deletes head and updates new heads prev. Index = middle/end unlinks node by recommecting prev/next. Index doesn't exist = exit -1. If deleting works out returns 1.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 3-add\_dnodeint\_end.c 0-print\_dlistint.c 4-free\_dlistint.c 8-delete\_dnodeint.c -o k
+results:
+0
+1
+2
+3
+4
+98
+402
+1024
+
+-----------------
+0
+1
+2
+3
+4
+402
+1024
+
+-----------------
+1
+2
+3
+4
+402
+1024
+
+-----------------
+2
+3
+4
+402
+1024
+
+-----------------
+3
+4
+402
+1024
+
+-----------------
+4
+402
+1024
+
+-----------------
+402
+1024
+
+-----------------
+1024
+
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
