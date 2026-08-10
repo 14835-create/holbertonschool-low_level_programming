@@ -19,7 +19,7 @@ The following files are included in this project:
 | 2-add\_dnodeint.c | Write a function that adds a new node at the beginning of a dlistint\_t list. |
 | 3-add\_dnodeint\_end.c | Write a function that adds new node at the end of dlistint\_t list |
 | 4-free\_dlistint.c | Write a function that frees a dilistint\_t list |
-
+| 5-get\_dnodeint.c | Write a function that returns the nth node of a dlistint\_t linked list |
 ## Tasks 🧩
 There is 9 tasks in total, all betty compliant:
 
@@ -72,7 +72,18 @@ results:
 ==4197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 
 
-6. []():
+6. [5-get\_dnodeint.c](./5-get_dnodeint.c): Function starts at head, walks through the list. Proceeds to count nodes until counter matches index, id found return node if end return NULL.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 3-add\_dnodeint\_end.c 0-print\_dlistint.c 4-free\_dlistint.c 5-get\_dnodeint.c -o h
+results:
+0
+1
+2
+3
+4
+98
+402
+1024
+98
 
 7. []():
 
