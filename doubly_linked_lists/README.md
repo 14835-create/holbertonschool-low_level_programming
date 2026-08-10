@@ -20,6 +20,10 @@ The following files are included in this project:
 | 3-add\_dnodeint\_end.c | Write a function that adds new node at the end of dlistint\_t list |
 | 4-free\_dlistint.c | Write a function that frees a dilistint\_t list |
 | 5-get\_dnodeint.c | Write a function that returns the nth node of a dlistint\_t linked list |
+| 6-sum\_dlistint.c | Write a function that returns the sum of all data (n) of a dlistint\_t linked list |
+|
+
+
 ## Tasks 🧩
 There is 9 tasks in total, all betty compliant:
 
@@ -85,7 +89,10 @@ results:
 1024
 98
 
-7. []():
+7. [6-sum\_dlistint.c](./6-sum_dlistint.c): Functions walks through each node, adds each nodes n value to total. Stops when head = NULL and returns final sum.
+compiled with: gcc -Wall -pedantic -Werror -Wextra 6-main.c -std=gnu89 3-add\_dnodeint\_end.c 4-free\_dlistint.c 6-sum\_dlistint.c -o i
+results:
+sum = 1534
 
 8. []():
 
