@@ -21,8 +21,8 @@ The following files are included in this project:
 | 4-free\_dlistint.c | Write a function that frees a dilistint\_t list |
 | 5-get\_dnodeint.c | Write a function that returns the nth node of a dlistint\_t linked list |
 | 6-sum\_dlistint.c | Write a function that returns the sum of all data (n) of a dlistint\_t linked list |
-|
-
+| 7-insert\_dnodeint.c | Write a function that inserts a new node at a given position|
+| | |
 
 ## Tasks 🧩
 There is 9 tasks in total, all betty compliant:
@@ -89,11 +89,32 @@ results:
 1024
 98
 
-7. [6-sum\_dlistint.c](./6-sum_dlistint.c): Functions walks through each node, adds each nodes n value to total. Stops when head = NULL and returns final sum.
+7. [6-sum\_dlistint.c](./6-sum_dlistint.c): Function walks through each node, adds each nodes n value to total. Stops when head = NULL and returns final sum.
 compiled with: gcc -Wall -pedantic -Werror -Wextra 6-main.c -std=gnu89 3-add\_dnodeint\_end.c 4-free\_dlistint.c 6-sum\_dlistint.c -o i
 results:
 sum = 1534
 
-8. []():
+8. [7-insert\_dnodeint.c](./7-insert_dnodeint.c): Function adds new node at index list. If index 0 = inserts beginning. Index at end = uses end insert. Index is middle links new node between existing nodes. If index doesn't exist = NULL.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 2-add\_dnodeint.c 3-add\_dnodeint\_end.c 0-print\_dlistint.c 4-free\_dlistint.c 7-insert\_dnodeint.c -o j
+results:
+0
+1
+2
+3
+4
+98
+402
+1024
+
+-----------------
+0
+1
+2
+3
+4
+4096
+98
+402
+1024
 
 9. []():
