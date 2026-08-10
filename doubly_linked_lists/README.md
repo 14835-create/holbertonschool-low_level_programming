@@ -16,7 +16,7 @@ The following files are included in this project:
 |----------|-------------|
 | 0-print\_dlistint.c | Write a function that prints all elements of a dlistint\_t lsit |
 | 1-dlistint\_len.c | Write a function that returns the number of elements linked dlistint\_t list  |
-|          | |
+| 2-add\_dnodeint.c | Write a function that adds a new node at the beginning of a dlistint\_t list. |
 |          | |
 |          | |
 
@@ -27,7 +27,7 @@ There is 9 tasks in total, all betty compliant:
 
 2. [-dlistint\_len.c](./1-dlistint_len.c):
 
-3. []():
+3. [2-add\_dnodeint.c](./2-add_dnodeint.c):
 
 4. []():
 
