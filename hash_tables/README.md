@@ -21,7 +21,7 @@ The following files are included in this project:
 | 1-djb2.c  | Write a hash function implementing the djd2 algorithm |
 | 2-key\_index.c | Write a function that gives you the infex of a key |
 | 3-hash\_table\_set.c | Write a function that adds an element to the hash table |
-|          | |
+| 4-hash\_table\_get.c | Write a function that retrieves value associated with a key |
 
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
@@ -49,4 +49,18 @@ results:
 470
 
 4. [3-hash\_table\_set.c](./3-hash_table_set.c): Function stores key/value in hash table. Calculates index for key, checks if key already exists. Updates the value if it does. If key is new, creates new node and inserts it at start of linked list at index. Returns 1 suzzess otherwise fail at 0.
-compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c -o d 
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c -o d
+
+5. [4-hash\_table\_get.c](./4-hash_table_get.c): Function looks up key on hash table. Walks through the linked list at index. If node found with matching key, returns the stored value, otherwise NULL.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c 4-hash\_table\_get.c -o e
+results:
+python:awesome
+Bob:and Kris love asm
+N:queens
+Asterix:Obelix
+Betty:Cool
+98:Battery Street
+c:isfun
+javascript:(null)
+
+6. []():
