@@ -23,6 +23,7 @@ The following files are included in this project:
 | 3-hash\_table\_set.c | Write a function that adds an element to the hash table |
 | 4-hash\_table\_get.c | Write a function that retrieves value associated with a key |
 | 5-hash\_table\_print.c | Write a function that prints a hash table |
+| 6-hash\_table\_delete.c | Write a function that deletes a hash table |
 
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
@@ -70,4 +71,5 @@ results:
 {}
 {'Betty': 'Cool', 'python': 'awesome', '98': 'Battery Street', 'N': 'queens', 'c': 'fun', 'Bob': 'and Kris love asm', 'Asterix': 'Obelix'}
 
-7. []():`
+7. [6-hash\_table\_delete.c](./6-hash_table_delete.c): Function deletes entire hash table. Loops through each index, freeing every node in linked list. 
+compiled/valgrind with: gcc -Wall -pedantic -Werror -Wextra 6-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c 4-hash\_table\_get.c 5-hash\_table\_print.c 6-hash\_table\_delete.c -o g
