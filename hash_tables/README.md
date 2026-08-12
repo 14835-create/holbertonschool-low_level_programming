@@ -22,6 +22,7 @@ The following files are included in this project:
 | 2-key\_index.c | Write a function that gives you the infex of a key |
 | 3-hash\_table\_set.c | Write a function that adds an element to the hash table |
 | 4-hash\_table\_get.c | Write a function that retrieves value associated with a key |
+| 5-hash\_table\_print.c | Write a function that prints a hash table |
 
 ## Tasks 🧩
 There is 7 tasks in total, all betty compliant:
@@ -63,4 +64,10 @@ Betty:Cool
 c:isfun
 javascript:(null)
 
-6. []():
+6. [5-hash\_table\_print.c](./5-hash_table_print.c): Function prints key/value pairs in hash table. Loops through array each index. Prints every node in linked list at that position. Prints in order of array.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c 4-hash\_table\_get.c 5-hash\_table\_print.c -o f
+results:
+{}
+{'Betty': 'Cool', 'python': 'awesome', '98': 'Battery Street', 'N': 'queens', 'c': 'fun', 'Bob': 'and Kris love asm', 'Asterix': 'Obelix'}
+
+7. []():`
