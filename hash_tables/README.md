@@ -19,7 +19,7 @@ The following files are included in this project:
 |----------|-------------|
 | 0-hash\_table\_create.c | Write a function that creates a has table |
 | 1-djb2.c  | Write a hash function implementing the djd2 algorithm |
-|           |
+| 2-key\_index.c | Write a function that gives you the infex of a key |
 |          | |
 |          | |
 
@@ -38,4 +38,14 @@ results:
 3749890792216096085
 5861846
 
-3. [](): 
+3. [2-key\_index.c](./2-key_index.c): Function takes key/size of the hash tables array. Uses djb2 hash function to turn key into large number. Uses the modulo op to shrink number to fit in array. Result is the indez where key/value pair stored.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 1-djb2.c 2-key\_index.c -o c
+results:
+6953392314605
+237
+3749890792216096085
+341
+5861846
+470
+
+4. [](): 
