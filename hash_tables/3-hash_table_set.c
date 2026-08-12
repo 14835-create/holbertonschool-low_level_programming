@@ -1,11 +1,11 @@
 #include "hash_tables.h"
 
 /**
- * update_value - updates value of existing key
+ * update_value - updates key value
  * @node: pointer to node key
  * @value: new value dupe
  *
- * Return 1 suzzess otherwise 0.
+ * Return: 1 success otherwise 0.
  */
 
 int update_value(hash_node_t *node, const char *value)
