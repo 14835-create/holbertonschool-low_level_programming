@@ -20,7 +20,7 @@ The following files are included in this project:
 | 0-hash\_table\_create.c | Write a function that creates a has table |
 | 1-djb2.c  | Write a hash function implementing the djd2 algorithm |
 | 2-key\_index.c | Write a function that gives you the infex of a key |
-|          | |
+| 3-hash\_table\_set.c | Write a function that adds an element to the hash table |
 |          | |
 
 ## Tasks 🧩
@@ -48,4 +48,5 @@ results:
 5861846
 470
 
-4. [](): 
+4. [3-hash\_table\_set.c](./3-hash_table_set.c): Function stores key/value in hash table. Calculates index for key, checks if key already exists. Updates the value if it does. If key is new, creates new node and inserts it at start of linked list at index. Returns 1 suzzess otherwise fail at 0.
+compiled with: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 0-hash\_table\_create.c 1-djb2.c 2-key\_index.c 3-hash\_table\_set.c -o d 
