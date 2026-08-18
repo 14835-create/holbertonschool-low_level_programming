@@ -23,8 +23,7 @@ The following files are included in this project:
 | 0-read\_textfile.c | Write a function that reads a text file and prints it to the POSIX standard output |
 | 1-create\_file.c | Create a function that creates a file|
 | 2-append\_text\_to\_file.c | Write a function that appends text at end of a file |
-|      |             |
-|      |             |
+| 3-cp.c | Write a program that copies the content of a file to another file|
 
 ## Tasks  🧩
 There is 4 tasks in total, all betty compliant:
@@ -34,3 +33,5 @@ There is 4 tasks in total, all betty compliant:
 2. [1-create\_file.c](./1-create_file.c): Function creates file and writes string into it. File opned using flags. Sets permission to rw when creating file otherwise if file exists perm doesn't change. If NULL, empty file created, if filename NULL function returns -1. Writes full conent of text file when provided. Returns 1 on success otherwise -1 on failure.
 
 3. [2-append\_text\_to\_file.c](./2-append_text_to_file.c): Function appends NULL terminated string to the end of an existing file. File is opened using O\_WRONLY/O\_APPEND. File is not created if it doesn't exist. Returns 1 if file exists otherwise -1 if file doesn't exist. When text conent given the content is appended to the file. Returns 1 on success otherwise -1 on failure.
+
+3. [3-cp.c](./3-cp.c): 
