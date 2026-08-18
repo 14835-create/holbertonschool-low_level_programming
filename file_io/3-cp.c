@@ -16,7 +16,7 @@
 
 void print_error(int code, const char *msg, const char *file, int fd)
 {
-	if (!file)
+	if (file)
 		dprintf(STDERR_FILENO, msg, file);
 	else
 		dprintf(STDERR_FILENO, msg, fd);
